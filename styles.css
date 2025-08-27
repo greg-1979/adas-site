@@ -64,7 +64,7 @@ body {
 /* Hero section */
 .hero {
     position: relative;
-    min-height: 75vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
