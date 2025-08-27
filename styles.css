@@ -34,7 +34,7 @@ body {
     width: 100%;
     padding: 1rem 0;
     z-index: 100;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0.4, 0.4);
 }
 
 .navbar .logo {
