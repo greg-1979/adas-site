@@ -3,111 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Association pour le Developpement et d'Action Sociale(ADAS)</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
-        header, footer { background-color: #4CAF50; color: white; text-align: center; padding: 20px 10px; }
-        nav { background: #f4f4f4; padding: 10px; text-align: center; }
-        nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; }
-        section { padding: 20px; }
-        h1, h2 { color: #4CAF50; }
-    </style>
+    <title>Association pour le Développement et d'Action Sociale (ADAS)</title>
+    <!-- Import a modern Google font to give the site a friendly feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Link to our external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
-    <h1>Association pour le Developpement et d'Action Sociale(ADAS)</h1>
-    <p>ADAS toujours au service des communautes</p>
-</header>
+    <!-- Hero/Header section with a large background image and tagline -->
+    <header class="hero">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">ADAS</div>
+                <!-- Toggle button for small screens -->
+                <div class="nav-toggle">&#9776;</div>
+                <ul class="nav-links">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#mission">Notre mission</a></li>
+                    <li><a href="#actions">Nos actions</a></li>
+                    <li><a href="#partenaires">Partenaires</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#dons">Dons &amp; Legs</a></li>
+                    <li><a href="#adherer">Adhésion</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Association pour le Développement et d'Action Sociale</h1>
+            <p>ADAS se tient aux côtés des communautés les plus vulnérables pour promouvoir la santé, l'éducation et la solidarité.</p>
+            <a href="#dons" class="cta-button">Faire un don</a>
+        </div>
+    </header>
 
-<nav>
-  <a href="#accueil">Page d'accueil</a>
-    <a href="#qui sommes nous?">Notre Mission</a>
-    <a href="#actions">Nos Actions</a>
-    <a href="#partenaires">Nos Partenaires</a>
-  <a href="#actualites blog">Nos publications</a>
-    <a href="#faire un don">dons et legs</a>
-  <a href="#nous rejoindre">devenir membre</a>
-  <a href="#contact">Contact</a>
-</nav>
-<section id="accueil">
-    <h2>Page d'accueil</h2>
-    <p><strong>ADAS</strong> est une association à but non lucratif engagée pour le bien-être des populations vulnérables, notamment en zones rurales et périurbaines. Nous œuvrons dans les domaines suivants :</p>
-    <ul>
-        <li>Presentation de l'ADAS</li>
-        <li>Photos d'activites phares</li>
-        <li>Boutons vers nos actions</li>
-        <li>ADAS toujours au service des communautes</li>
-    </ul>
-<section id="qui sommes nous?">
-    <h2>Notre Mission</h2>
-    <ul>
-        <li>historique de l'ADAS</li>
-        <li>Mission, vision,valeurs et politiques</li>
-        <li>Equipe et partenaires</li>
-    </ul>
-</section>
+    <main>
+        <!-- Section: Accueil -->
+        <section id="accueil" class="section">
+            <div class="container">
+                <h2>Qui sommes‑nous&nbsp;?</h2>
+                <p><strong>ADAS</strong> est une association à but non lucratif engagée pour le bien‑être des populations vulnérables, notamment en zones rurales et périurbaines. Depuis sa création, l’association mène des actions de proximité pour améliorer l’accès aux services sociaux de base.</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <h3>Présentation de l’ADAS</h3>
+                        <p>Découvrez notre histoire et les valeurs qui nous animent au quotidien.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Galerie d’activités</h3>
+                        <p>Parcourez des photos de nos actions phares sur le terrain.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Nos programmes</h3>
+                        <p>Consultez les différents programmes que nous menons pour répondre aux besoins des communautés.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section id="actions">
-    <h2>Nos Actions</h2>
-    <p>Nous mettons en œuvre des projets concrets pour répondre aux besoins sociaux de base essentiels des communautés :</p>
-    <h3>Equite dans la santé pour tous</h3>
-    <p>Organisation de campagnes de sensibilisation, consultations mobiles, distribution de kits d’hygiène et d’éducation sexuelle, vaccination, surveillance epidemiologique, prise en charge integree des maladies de l'enfant a base communautaire, lutte contre le VIH/SIDA, promotion de la contraception, interventions preventives de la malnutrition a base communautaire, digitalisation des donnees de sante communautaire.</p>
+        <!-- Section: Mission -->
+        <section id="mission" class="section section-alt">
+            <div class="container">
+                <h2>Notre mission</h2>
+                <p>Notre mission consiste à promouvoir un développement inclusif et durable afin de garantir l’équité sociale. Nous déployons des initiatives dans plusieurs domaines&nbsp;:</p>
+                <ul class="list">
+                    <li><strong>Historique&nbsp;:</strong> comment l’ADAS est née et a évolué.</li>
+                    <li><strong>Vision et valeurs&nbsp;:</strong> les principes qui guident notre action au quotidien.</li>
+                    <li><strong>Équipe et partenaires&nbsp;:</strong> un réseau de bénévoles, d’ONG et d’institutions locales.</li>
+                </ul>
+            </div>
+        </section>
 
-    <h3>Éducation des enfants defavorises</h3>
-    <p>Soutien scolaire, dotation en fournitures, parrainage d’enfants et création de bibliothèques communautaires, promotion de l'education non formelle.</p>
+        <!-- Section: Actions -->
+        <section id="actions" class="section">
+            <div class="container">
+                <h2>Nos actions</h2>
+                <p>ADAS pilote des projets concrets pour répondre aux besoins essentiels des communautés. Chaque programme est mené avec l’appui des acteurs locaux et des bénéficiaires eux‑mêmes.</p>
+                <div class="actions-grid">
+                    <div class="action-item">
+                        <h3>Équité dans la santé</h3>
+                        <p>Sensibilisation, consultations mobiles, distribution de kits d’hygiène, vaccination, lutte contre les épidémies et digitalisation des données de santé.</p>
+                    </div>
+                    <div class="action-item">
+                        <h3>Éducation des enfants défavorisés</h3>
+                        <p>Soutien scolaire, dotation en fournitures, parrainage d’enfants et création de bibliothèques communautaires.</p>
+                    </div>
+                    <div class="action-item">
+                        <h3>Protection de la femme et de l’enfant</h3>
+                        <p>Ateliers sur la violence basée sur le genre, les droits de l’enfant, l’éducation des filles et l’accompagnement des victimes.</p>
+                    </div>
+                    <div class="action-item">
+                        <h3>Sauvegarde de l’environnement</h3>
+                        <p>Plantation d’arbres, gestion des déchets, reboisement et création d’espaces verts dans les écoles.</p>
+                    </div>
+                    <div class="action-item">
+                        <h3>Politique sociale</h3>
+                        <p>Organisation de groupements d’épargne et de crédit, formations sur les métiers et accès aux services sociaux de base.</p>
+                    </div>
+                    <div class="action-item">
+                        <h3>Culture et traditions</h3>
+                        <p>Promotion des traditions locales et organisation d’événements culturels et artistiques.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <h3>protection de la femme et de l'enfant</h3>
-    <p>Organiser des ateliers et des événements communautaires sur des sujets tels que la violence basée sur le genre (VBG), les droits de l'enfant, l'importance de l'éducation des filles, le mariage précoce et les mutilations génitales féminines (MGF), Mettre en place un service d'écoute anonyme et confidentiel pour les victimes de violence, en les orientant vers les services appropriés.</p>
-  
-    <h3>Sauvons notre environnement</h3>
-    <p>Plantation d’arbres, gestion des déchets, reboisement, creation des espaces verts autour des etablissements scolaires, éducation à l’écocitoyenneté.</p>
+        <!-- Section: Partenaires -->
+        <section id="partenaires" class="section section-alt">
+            <div class="container">
+                <h2>Nos partenaires</h2>
+                <p>Nous collaborons avec des ONG locales et internationales, des associations sœurs et des institutions publiques afin d’amplifier notre impact. Ensemble, nous construisons des solutions durables.</p>
+                <p>Vous trouverez ci‑dessous quelques‑uns de nos partenaires et groupes d’épargne et de crédit&nbsp;:</p>
+                <ul class="list">
+                    <li>Groupe d’épargne de Walia Nord</li>
+                    <li>Coopérative des producteurs de céréales de Mandjafa</li>
+                    <li>ONG Santé pour Tous</li>
+                    <li>Association des Femmes Solidaires</li>
+                    <!-- Ajoutez d’autres partenaires ici -->
+                </ul>
+                <p>N’hésitez pas à visiter leurs sites en cliquant sur les logos ci‑dessous&nbsp;:</p>
+                <div class="partner-logos">
+                    <!-- Les images de logo peuvent être ajoutées ici (exemple avec un lien d'image externe) -->
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/UNICEF_Logo.svg/200px-UNICEF_Logo.svg.png" alt="UNICEF logo"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/WHO_Logo.svg/200px-WHO_Logo.svg.png" alt="WHO logo"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Oxfam_logo.svg/200px-Oxfam_logo.svg.png" alt="Oxfam logo"></a>
+                </div>
+            </div>
+        </section>
 
-  <h3>Politique sociale</h3>
-    <p>organisation des femmes et des hommes en groupements, creation des groupements d'epargne et de credit, renforcement de capacites sur les petits metiers, sensibilisation a l'utilisation des services sociaux de base.</p>
+        <!-- Section: Publications -->
+        <section id="publications" class="section">
+            <div class="container">
+                <h2>Nos publications</h2>
+                <p>Retrouvez les articles sur nos activités récentes, les témoignages des bénéficiaires et les projets en cours.</p>
+                <div class="blog-list">
+                    <article class="blog-post">
+                        <h3>Campagne de sensibilisation sur la malnutrition</h3>
+                        <p>Publié le 12 août 2025 – Nous avons organisé une campagne de sensibilisation sur la nutrition des enfants de moins de cinq ans à Walia. Plus de 200 familles ont participé et reçu des conseils pratiques pour améliorer l’équilibre alimentaire de leurs enfants.</p>
+                        <a href="#" class="read-more">Lire la suite</a>
+                    </article>
+                    <article class="blog-post">
+                        <h3>Création d’une bibliothèque communautaire</h3>
+                        <p>Publié le 22 juillet 2025 – Une nouvelle bibliothèque communautaire a ouvert ses portes à Mandjafa. Elle accueille déjà une cinquantaine d’enfants et met gratuitement des centaines de livres à disposition.</p>
+                        <a href="#" class="read-more">Lire la suite</a>
+                    </article>
+                    <!-- Ajoutez d’autres articles ici -->
+                </div>
+            </div>
+        </section>
 
-    <h3>Culture et traditions</h3>
-    <p>Valorisation des traditions locales, organisation d’événements culturels et artistiques.</p>
-</section>
+        <!-- Section: Dons et legs -->
+        <section id="dons" class="section section-alt">
+            <div class="container">
+                <h2>Faire un don</h2>
+                <p>Votre générosité nous permet de mener nos actions et de soutenir les personnes les plus vulnérables. Découvrez comment contribuer selon vos moyens.</p>
+                <div class="donation-options">
+                    <div class="donation-item">
+                        <h3>Besoins matériels</h3>
+                        <p>Fournitures scolaires, vêtements, matériel médical… chaque don compte.</p>
+                    </div>
+                    <div class="donation-item">
+                        <h3>Soutien financier</h3>
+                        <p>Vous pouvez effectuer un don ponctuel ou régulier. Contactez‑nous pour connaître les modalités.</p>
+                    </div>
+                    <div class="donation-item">
+                        <h3>Legs et partenariats</h3>
+                        <p>Il est possible d’inclure l’ADAS dans vos dispositions testamentaires ou de bâtir un partenariat à long terme.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section id="partenaires">
-    <h2>Nos Partenaires</h2>
-    <p>Nous collaborons avec des ONG locales et internationales, des associations sœurs, ainsi que des acteurs institutionnels pour maximiser notre impact. Ensemble, nous construisons des solutions durables.</p>
-  <p>liste des groupements d'epargne et de credit.</p>
-   <p>logos et liens vers les sites.</p>
-</section>
+        <!-- Section: Adhésion -->
+        <section id="adherer" class="section">
+            <div class="container">
+                <h2>Devenir membre</h2>
+                <p>Rejoignez‑nous en tant que bénévole, sympathisant ou partenaire. Votre engagement est précieux pour mener à bien nos missions.</p>
+                <ul class="list">
+                    <li>Appels à volontaires pour nos actions de terrain.</li>
+                    <li>Participation à nos événements et formations.</li>
+                    <li>Informations sur l’adhésion et l’engagement auprès de l’ADAS.</li>
+                </ul>
+                <p>Pour devenir membre, remplissez le formulaire de contact ci‑dessous ou envoyez‑nous un message à <a href="mailto:adasndjamena@gmail.com">adasndjamena@gmail.com</a>.</p>
+            </div>
+        </section>
 
-  <section id="Actualites blog">
-    <h2>Nos publications</h2>
-    <p>Articles sur les activités récentes.</p>
-  <p>Temoignages des beneficiaires.</p>
-   <p>Activites en cours.</p>
-</section>
+        <!-- Section: Contact -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2>Contactez‑nous</h2>
+                <p>Pour plus d’informations sur nos actions, nos besoins ou pour toute demande spécifique, n’hésitez pas à nous contacter.</p>
+                <ul class="contact-info">
+                    <li><strong>Email&nbsp;:</strong> <a href="mailto:adasndjamena@gmail.com">adasndjamena@gmail.com</a></li>
+                    <li><strong>Téléphone&nbsp;:</strong> <a href="tel:+23560017618">+235&nbsp;60&nbsp;01&nbsp;76&nbsp;18</a></li>
+                    <li><strong>Adresse&nbsp;:</strong> Quartier WALIA HADJIRAI, 9e Arrondissement, N'Djamena, Tchad</li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
-  <section id="faire un don">
-    <h2>dons et legs</h2>
-    <p>informations sur les besoins.</p>
-  <p>Moyens de soutien.</p>
-   <p>paiement.</p>
-</section
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy;&nbsp;2025&nbsp;Association pour le Développement et d'Action Sociale &nbsp;•&nbsp; Tous droits réservés</p>
+        </div>
+    </footer>
 
-  <section id="nous rejoindre">
-    <h2>devenir membre</h2>
-    <p>appels a volontaires.</p>
-  <p>formulaire de contact.</p>
-   <p>infos sur comment s'engager.</p>
-</section>
-  
-<section id="contact">
-    <h2>Contact</h2>
-    <p>📧 Email : adasndjamena@gmail.com</p>
-    <p>📞 Téléphone : +235 60 01 76 18</p>
-    <p>📍 Adresse : Quartier WALIA HADJIRAI, 9eme Arrondissement, N'Djamena, TCHAD</p>
-</section>
-
-<footer>
-    <p>&copy; 2025 ADAS  - Tous droits réservés</p>
-</footer>
-
+    <!-- Optional JavaScript for small interactions (e.g. responsive navigation) -->
+    <script>
+        // Toggle navigation on small screens
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        if (navToggle) {
+            navToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        }
+    </script>
 </body>
 </html>
