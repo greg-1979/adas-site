@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <section id="a-la-une" class="section">
+  <div class="container">
+    <h2>À la Une</h2>
+    <label for="actualites">Choisissez une actualité :</label>
+    <select id="actualites" onchange="afficherActualite()">
+      <option value="">-- Sélectionnez --</option>
+    </select>
+    <div id="contenu-actualite" style="margin-top: 20px;"></div>
+  </div>
+</section>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F9857VMZVK"></script>
   <script>
@@ -11,6 +22,51 @@
     gtag('config', 'G-F9857VMZVK');
   </script>
 </head>
+  <script>
+  const actualites = [
+    {
+      titre: "Nouvelle campagne de vaccination",
+      contenu: "ADAS a lancé une campagne de vaccination dans les zones rurales de N'Djamena pour lutter contre la rougeole et le paludisme.",
+      date: "28 janvier 2026"
+    },
+    {
+      titre: "Séminaire sur l'éducation des filles",
+      contenu: "Un atelier a réuni 80 participantes pour discuter des stratégies d'encouragement à la scolarisation des filles.",
+      date: "20 janvier 2026"
+    },
+    {
+      titre: "Reboisement communautaire",
+      contenu: "Plus de 500 arbres ont été plantés dans les écoles de Walia, avec la participation des élèves et enseignants.",
+      date: "10 janvier 2026"
+    }
+  ];
+
+  const selectElement = document.getElementById('actualites');
+  const contenuDiv = document.getElementById('contenu-actualite');
+
+  // Charger les options
+  actualites.forEach((actu, index) => {
+    const option = document.createElement('option');
+    option.value = index;
+    option.textContent = `${actu.date} – ${actu.titre}`;
+    selectElement.appendChild(option);
+  });
+
+  // Affichage dynamique
+  function afficherActualite() {
+    const index = selectElement.value;
+    if (index === "") {
+      contenuDiv.innerHTML = "";
+      return;
+    }
+    const actu = actualites[index];
+    contenuDiv.innerHTML = `
+      <h3>${actu.titre}</h3>
+      <p><em>${actu.date}</em></p>
+      <p>${actu.contenu}</p>
+    `;
+  }
+</script>
 <body>
    
     <meta charset="UTF-8">
