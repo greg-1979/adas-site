@@ -44,13 +44,12 @@
     </header>
  <section id="a-la-une" class="section">
   <div class="container">
-    <h2>À la Une</h2>
-    <label for="actualites">Choisissez une actualité :</label>
-    <select id="actualites" onchange="afficherActualite()">
-      <option value="">-- Sélectionnez --</option>
-    </select>
-    <div id="contenu-actualite" style="margin-top: 20px;"></div>
-  </div>
+   contenuDiv.innerHTML = `
+  <h3>${actu.titre}</h3>
+  <p><em>${actu.date}</em></p>
+  <img src="${actu.image}" alt="${actu.titre}" style="max-width:100%; height:auto; margin: 15px 0;">
+  <p>${actu.contenu}</p>
+`;
 </section>
 
   <!-- Google tag (gtag.js) -->
