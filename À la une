@@ -1,0 +1,10 @@
+<section id="a-la-une">
+  <h2>À la Une</h2>
+  <div class="news-item">
+    <img src="img/article1.jpg" alt="Image">
+    <h3><a href="article1.html">Titre de l’article</a></h3>
+    <p>Résumé de l'article...</p>
+    <span class="date">23 janvier 2026</span>
+  </div>
+  <!-- Autres articles -->
+</section>
